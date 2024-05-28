@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-12T17:31:38 IST" name="DMS Application" finished-at="2024-04-12T17:33:02 IST" duration-ms="83519">
+    <groups>
+    </groups>
+    <test started-at="2024-04-12T17:31:38 IST" name="DMS App Test" finished-at="2024-04-12T17:33:02 IST" duration-ms="83519">
+      <class name="com.DMS.testCases.TC_016_MergeFiles">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.DMS.testCases.TC_016_MergeFiles@738dc9b]" started-at="2024-04-12T17:31:39 IST" name="setup" finished-at="2024-04-12T17:31:52 IST" duration-ms="13720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="mergeFiles_DMS()[pri:1, instance:com.DMS.testCases.TC_016_MergeFiles@738dc9b]" started-at="2024-04-12T17:31:52 IST" name="mergeFiles_DMS" description="Merge Files from DMS" finished-at="2024-04-12T17:32:28 IST" duration-ms="36006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeFiles_DMS -->
+        <test-method signature="mergeFiles_Local()[pri:2, instance:com.DMS.testCases.TC_016_MergeFiles@738dc9b]" started-at="2024-04-12T17:32:28 IST" name="mergeFiles_Local" description="Merge Files from local system" finished-at="2024-04-12T17:33:01 IST" duration-ms="32894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mergeFiles_Local -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.DMS.testCases.TC_016_MergeFiles@738dc9b]" started-at="2024-04-12T17:33:01 IST" name="tearDown" finished-at="2024-04-12T17:33:02 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DMS.testCases.TC_016_MergeFiles -->
+    </test> <!-- DMS App Test -->
+  </suite> <!-- DMS Application -->
+</testng-results>

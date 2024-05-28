@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.DMS.testCases.TC_007_Projects">
+        <methods>
+          <include name="signDocument"/>
+          <include name="docDeletDocument"/>
+          <include name="addSignersToTheDocument"/>
+          <include name="setup"/>
+          <include name="docShareDocument"/>
+          <include name="docArchiveDocument"/>
+          <include name="addSigners_Document"/>
+          <include name="docPermissionDocument"/>
+          <include name="docDownload_Print"/>
+          <include name="docUploadDocument"/>
+          <include name="docEditDocument"/>
+          <include name="addNewVersion_Doc"/>
+        </methods>
+      </class> <!-- com.DMS.testCases.TC_007_Projects -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
